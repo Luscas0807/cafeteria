@@ -1,0 +1,229 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(184, 134, 87);
+
+}
+
+.conteiner img{
+    display: inline;
+    width: 300px;
+    height: 300px;
+    margin-left: 400px;
+    border: 12px, solid, black;
+    border-radius: 50px;
+}
+
+#cardapio img{
+    display: inline;
+    width: 300px;
+    height: 300px;
+    margin-left: 150px;
+    border: 12px, solid, black;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#cardapio img:hover{
+    display: inline;
+    width: 300px;
+    height: 300px;
+    border: 12px, solid, rgb(255, 255, 255);
+    border-radius: 50px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+
+
+.title{
+    font-size: 4rem;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-weight:bolder;
+    display: flex;
+    align-items: end;
+    text-shadow: 
+    -2px -2px 0 black,  
+    2px -2px 0 black,   
+    -2px 2px 0 black,   
+    2px 2px 0 black;;
+}
+
+.telacheia{
+    width: 96vw;
+    height: 100vh;
+    margin-top: 30px;
+}
+
+
+
+#sobrenos{
+    font-size: 4rem;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-weight:bolder;
+    display: flex;
+    align-items: end;
+    text-align: center;
+    background-color:grey;
+    justify-content: center;
+    width: 100rem;
+    height:fit-content;
+    margin: auto;
+    border: 10px,solid, black;
+    border-radius: 20px;
+}
+
+
+h1{
+    font-size: 3rem;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-weight:bolder;
+    display: flex;
+    align-items: end;
+    text-shadow: 
+    -2px -2px 0 rgb(255, 255, 255),  
+    2px -2px 0 rgb(255, 255, 255),   
+    -2px 2px 0 rgb(255, 255, 255),   
+    2px 2px 0 rgb(255, 255, 255);;
+}
+
+#cardapio{
+    background-color:grey;
+    justify-content: center;
+    width: 100rem;
+    height:fit-content;
+    margin: auto;
+    border: 10px,solid, black;
+    border-radius: 20px;
+}
+
+header{
+    height: 140px;
+    width: 100%;
+    max-width: 100%;
+    background-size: contain;
+    background-color: rgb(125, 125,125);
+    border-bottom: 15px solid rgb(0, 0, 0);
+
+}
+
+header img{
+    width: 140px;
+    height: 140px;
+    float: left;
+}
+.banner{
+    width: 100%;
+    position: absolute;
+}
+
+.nav{
+    padding: 0.5rem;
+    font-size: 3rem;
+    float: right;
+    margin-top: 2.3rem;
+}
+
+a.butao {
+    margin-right: 10px;
+    padding: 1px 6px;
+    border: 2px outset buttonborder;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-shadow: 
+    -1px -1px 0 black,  
+    1px -1px 0 black,   
+    -1px 1px 0 black,   
+    1px 1px 0 black;
+}
+
+a.butao:hover{
+    color: rgb(249, 249, 249);
+}
+
+
+.telacontato{
+     font-size: 4rem;
+    color: rgb(0, 0, 0);
+    font-weight:bolder;
+    align-items: center;
+    text-align: center;
+    background-color:grey;
+    justify-content: center;
+    width: 70rem;
+    height: fit-content;
+    margin: auto;
+    border: 10px,solid, black;
+    border-radius: 20px;
+}
+
+.telacontato p{
+    display:flex;
+    align-items: center;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+}
+
+p{
+    display:flex;
+}
+
+#redes{
+    margin-top: 40px;
+    justify-content: center;
+}
+
+
+#contato{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    background-color: rgb(95, 95, 95);
+    width: fit-content;
+    height: fit-content;
+    border-radius: 20px;
+    align-items: center;
+}
+
+label{
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    padding: 2px;
+    font-size: 5rem;
+    color: rgb(0, 0, 0);
+
+    text-shadow: 
+    -1px -1px 0 rgb(255, 255, 255),
+    1px -1px 0 rgb(255, 255, 255),   
+    -1px 1px 0 rgb(255, 255, 255),
+    1px 1px 0 rgb(255, 255, 255);
+}
+input{
+    display: flex;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 30rem;
+    height: 2rem;
+    border-radius: 8px;
+   
+}
+.butao{
+    width: 10rem;
+}
+html{
+    scroll-behavior: smooth;
+}
